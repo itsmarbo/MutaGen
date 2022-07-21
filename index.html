@@ -54,7 +54,7 @@
                         </p>
                         
                         <h3>How to ...</h3>
-                        <p class="instrucciones">
+                        <p class="instrucciones"> <!-- Describiendo la receta -->
                            To run the analysis you need to provide the mutation using three principal components: the initial aminoacid, the position (number) and the final aminoacid.
                          
 
@@ -89,25 +89,25 @@
                                               <div class="collapse navbar-collapse" id="navbarTogglerDemo">
                                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                                   <li class="nav-item">
-                                                    <a class="nav-link disabled">Write the mutation using <b>capital</b> letters e.g. K4N</a>
+                                                    <a class="nav-link disabled">Write the mutation using <b>capital</b> letters e.g. K4N</a> <!-- Indicaciones precisas -->
                                                   </li>
                                                 </ul>
                                                 <form class="d-flex" role="search">
                                                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                                  <button class="btn btn-outline-success" type="submit">Search</button>
+                                                  <button class="btn btn-outline-success" type="submit">Search</button> <!-- Buscar la mutación-->
                                                 </form>
                                               </div>
                                             </div>
                                           </nav>
                                           <hr/>
                                           <div>
-                                                  <div class="alert alert-warning" role="alert">
+                                                  <div class="alert alert-warning" role="alert"> <!-- Warning for the user -->
                                                       Double check! The aminoacids must be written in <b>one capital</b> letter
                                                   </div>
                                           </div>
                             <div>
                                 <h3>Additional Features</h3>
-                                    <p><b>2. Aminoacid molecular structures</b></p>
+                                    <p><b>2. Aminoacid molecular structures</b></p> <!-- To describe the aminoacids-->
                             </div>                
                                         <div class="slider">
                                             <label for="slideForAA" class="form-label">Move the bar to select the amino acid</label>
@@ -153,7 +153,7 @@
                         <button class="btn btn-primary run" type="button" v-on:click="run()" :disabled="isDisabled">Run Model</button>
                         <div v-if="third" class="container third">
                             <div class="spinning">
-                                <img src="IMG/spinner.gif" alt="Just hold a little longer ...">
+                                <img src="IMG/spinner.gif" alt="Just hold a little longer ..."> <!-- So te user doesn't get bored -->
                             </div>
                         </div>
                     </div>
